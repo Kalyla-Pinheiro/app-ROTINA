@@ -1,0 +1,7 @@
+- Criar metas
+- Listar metas 
+    - Metas realizadas
+    - Metas concluídas
+- Marcar/ Desmarcar metas como concluídas
+- Remover metas
+- Sistema de mesagem
