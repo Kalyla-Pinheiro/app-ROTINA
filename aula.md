@@ -61,3 +61,11 @@ Apresentar os dados
 
 # Condicionais
 - [X] switch
+
+## Módulos em Nodes.js
+- [X] Importação de módulos (require, CommonJS)
+- [X] Biblioteca 'inquirer' para criar prompts interativos
+
+## Programação assícrona e Promises:
+
+- [X] Uso de funções assícronas (async/await) 
