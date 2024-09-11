@@ -1,11 +1,18 @@
-// olá, mundo!
-const mensagem = "olá mundo!"
+ // arrays, objetos
+ let meta = {
+    value: 'ler um livro por mês',
+    address: 2,
+    checked: false,
+    log: (info) => {
+      console.log(info)
+    }
 
-// {} significa escopo diferente, novo escopo, dentro de chave 
-//é considerado local e o que está fora é global 
+ }
 
-{
-    const mensagem = "Olá, kalyla"
-    console.log(mensagem)
-}
-console.log(mensagem);
+ meta.value = "não é mais ler um livro"
+ console.log(meta.value)
+
+//function // arrow function
+//const criarMeta = () => {}
+
+//function criarMeta() {}
