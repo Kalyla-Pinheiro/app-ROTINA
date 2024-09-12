@@ -68,9 +68,29 @@ const metasRealizadas = async () => {
    }
 
       await select({
-         message: 'Metas Realizadas',
+         message: realizadas.length + ' Metas Realizadas',
          choices: [...realizadas]
       })
+}
+
+const metasAbertas = async () => {
+   // metasAbertas = async () => ,RECEBE UMA FUNÇÃO ASSÍCRONA
+   const abertas = metas.filter((meta) => {
+      // cada filtro vai rodar uma função para cada meta
+      return meta.checked != true
+      // foi feito esse diferente pois a meta pode não estar concluia, oou seja, retornando falso , com isso me possibilita retornar verdadeiro
+      // retornando verdadeiro essa meta é entendida como faz parte do filtro, estando na lista de metas abertas 
+   })
+
+   if(abertas.length == 0){
+      console.log("Não existem metas abertas! :)")
+      return 
+   }
+
+   await select({
+      message:  abertas.length + " Metas Abertas",
+      choices: [...abertas]
+   })
 }
 
 const start = async () => {
@@ -84,14 +104,22 @@ const start = async () => {
                name: "Cadastrar meta",
                value: "cadastrar"
             },
+
             {
                name: "Listar metas",
                value: "listar"
             },
+
             {
                name: "Metas realizadas",
                value: "realizadas"
             },
+
+            {
+               name: "Metas abertas",
+               value: "abertas"
+            }, 
+
             {
                name: "Sair",
                value: "sair"
@@ -104,11 +132,19 @@ const start = async () => {
             await cadastrarMeta()
             console.log(metas)
             break
+
          case "listar":
             await listarMetas()
             break
+
          case "realizadas":
             await metasRealizadas()
+            break
+
+         case "abertas":
+              await metasAbertas()
+            break
+
          case "sair":
             console.log("Até a próxima!")
             return
