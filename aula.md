@@ -5,15 +5,15 @@ Como um lego, você irá utilizar peças para criar algoritmos, ou seja, para re
 
 **Algoritmos**: Sequência de passos lógica e finita para resolução de um problema.
 
-## Peçass de uma linguagem
+## Peças de uma linguagem
 
 - [X] Comentários
-- Declaração de variáveis (const, let)
-- Operadores (atribuição, concatenação, matemática, lógicos)
+- [X] Declaração de variáveis (const, let)
+- [X] Operadores (atribuição, concatenação, matemática, lógicos)
 - [X] Tipos de dados (string, number, boolean)
-- Estrutura de dados (functions, object, array)
+- [X] Estrutura de dados (functions, object, array)
 - [X] Controle de fluxo (if/else)
-- Estrutura de repetição (for, while)
+- [X] Estrutura de repetição (for, while)
 
 # Fases de resolução de um problema
 
@@ -44,6 +44,7 @@ Apresentar os dados
 ### Arrays:
 
 - [X] Uma lista que contém qualquer tipo de dado
+- [x] Métodos de array: push, find, forEach
 
 ### Objetos:
 
