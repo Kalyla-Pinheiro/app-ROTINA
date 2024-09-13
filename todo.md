@@ -4,4 +4,5 @@
     - [X] Metas abertas
 - [x] Marcar/ Desmarcar metas como concluídas
 - [x] Remover metas
-- [X] Sistema de mesagem
+- [X] Sistema de mensagens
+- [X] Persistir dados : Sistema de carregar e salvar metas
