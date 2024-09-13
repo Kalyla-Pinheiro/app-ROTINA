@@ -1,5 +1,5 @@
  ## EVENTO - NLW-17 TRILHA INICIANTE
- * CREDITOS 
+ * CRÉDITOS 
  
   [![rocketseat](https://img.shields.io/badge/-Github%20da%20Rocketseat-A020F0?style=for-the-badge&logo=rocketseat&Color=white)](https://github.com/rocketseat-education)
  
