@@ -53,4 +53,5 @@ Contribuições são bem-vindas! Abra um pull request para sugerir melhorias.
  <div align="center">
    @rocketseat 
    @rocketseat-education
+   @larazevedo
 </div>
