@@ -49,5 +49,8 @@ Contribuições são bem-vindas! Abra um pull request para sugerir melhorias.
    [![rocketseat](https://img.shields.io/badge/-Créditos%20:%20Rocketseat-A020F0?style=for-the-badge&logo=rocketseat&Color=white)](https://github.com/rocketseat-education)
 </div>
 
-@rocketseat 
-@rocketseat-education
+
+ <div align="center">
+   @rocketseat 
+   @rocketseat-education
+</div>
