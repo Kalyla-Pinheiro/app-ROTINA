@@ -10,7 +10,10 @@
 
  ## 🤩 Visual da execução
  <img src="https://github.com/user-attachments/assets/70e79581-0499-4628-94ad-8ea05855675c" height="250">
- 
+
+ ## 🚀 Execução 
+https://github.com/user-attachments/assets/040f7dc3-2e61-46e8-9d2b-b3ad82dc3b77
+
 ## ✅ Funcionalidades:
 
 * Cadastrar meta
