@@ -1,8 +1,5 @@
  # 💟 EVENTO - NLW-17 TRILHA INICIANTE
 
-https://github.com/user-attachments/assets/e16afb14-9c1c-4e1a-96a3-ce2c18545259
-
-
  <div align="center">
 <img src="https://github.com/user-attachments/assets/8386950d-0679-4a9d-bb3b-c9b7e6f0fbfb" height="500">
 </div>
